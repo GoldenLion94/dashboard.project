@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 0.7fr 3fr;
@@ -15,21 +16,25 @@
   color: #0c0a09;
   padding-right: 4rem;
 }
+
 .logo-text {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 1.5rem 0.4rem;
 }
+
 .dashboard-icon {
   width: 5.2rem;
   height: 5.2rem;
   margin-left: 0.8rem;
 }
+
 .logo-text h1 {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .logo-icon {
   width: 2.6rem;
   height: 2.6rem;
@@ -46,6 +51,7 @@
   margin-left: 1.25rem;
   font-size: 1rem;
 }
+
 .list-items-bottom {
   margin-top: 3.125rem;
   margin-bottom: 60vh;
@@ -84,9 +90,11 @@
   margin-left: 1.4rem;
   margin-right: 10rem;
 }
+
 .form-input:hover {
   border: 2px solid black;
 }
+
 .icon {
   width: 3.7rem;
   height: 4.2rem;
@@ -118,6 +126,7 @@ a {
   color: goldenrod;
   transition: 6s;
 }
+
 .right {
   display: flex;
   justify-content: space-between;
@@ -125,6 +134,7 @@ a {
   width: 23rem;
   margin-right: 2rem;
 }
+
 .btn {
   width: 6rem;
   height: 2rem;
@@ -145,10 +155,12 @@ a {
   padding-top: 2rem;
   padding-left: 1rem;
 }
+
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .card {
   background-color: white;
   color: black;
@@ -163,6 +175,7 @@ a {
   justify-content: center;
   align-items: flex-start;
 }
+
 .project-icon {
   width: 1.6rem;
   height: 1.6rem;
@@ -205,27 +218,22 @@ h6 {
   margin-top: 20px;
   margin-right: 2rem;
 }
-.trend-card {
-  width: 80%;
-  height: 65%;
-  background: white;
-  color: black;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  margin-top: 20px;
-  margin-right: 2rem;
+
+.ann {
+  margin-bottom: 2rem;
 }
 
 .ann-card p,
 .trend-text p {
   font-size: 14px;
   color: #6b7280;
-  margin: 10px 0;
+  margin: 05px 0;
 }
 
 .ann-text {
   padding: 5px 10px;
 }
+
 .ann-text h6,
 .trend-text h6 {
   font-size: 14px;
@@ -239,16 +247,28 @@ h6 {
 
 /* Trend Section */
 
-.trend-img-text {
-  display: flex;
-  align-items: center;
-}
-.trend-card p {
-  color: #6b7280;
+.trend-card {
+  width: 80%;
+  height: 65%;
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 20px;
+  margin-right: 1.8rem;
 }
 
 .trend-icon {
   border-radius: 30px;
   border: solid black;
   margin: 10px 20px;
+}
+
+.trend-img-text {
+  display: flex;
+  align-items: center;
+}
+
+.trend-card p {
+  color: #6b7280;
 }
