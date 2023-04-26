@@ -53,10 +53,10 @@
 /* Main Screen  */
 
 .main {
-  background-color: azure;
+  background-color: white;
 
   display: grid;
-  grid-template-rows: 0.5fr 3fr;
+  grid-template-rows: 15% 85%;
 }
 
 .header {
@@ -111,11 +111,12 @@
   border: 1px solid black;
   margin: 0 1.6rem;
 }
+
 a {
   text-decoration: none;
-  color: black;
+  color: goldenrod;
+  transition: 6s;
 }
-
 .right {
   display: flex;
   justify-content: space-between;
@@ -132,6 +133,9 @@ a {
   border-radius: 1.25rem;
 }
 /* CONTENT */
+
+/* Projects Section */
+
 .content {
   background-color: #0c0a09;
   color: #eab308;
@@ -150,7 +154,7 @@ a {
   border-left: 0.4rem solid #eab308;
   border-radius: 0.5rem;
   width: 80%;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
   padding: 1.5rem;
   padding-bottom: 2.5rem;
   display: flex;
@@ -179,4 +183,70 @@ h6 {
   font-size: 0.875rem;
   color: #6b7280;
   margin: 0.5rem 0;
+}
+
+/* Announcement & Trending Section  */
+
+.ann-trend {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 0;
+}
+
+.ann-card {
+  width: 80%;
+  height: 60%;
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 20px;
+  margin-right: 2rem;
+}
+.trend-card {
+  width: 80%;
+  height: 50%;
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 20px;
+  margin-right: 2rem;
+}
+
+.ann-card p,
+.trend-text p {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 10px 0;
+}
+
+.ann-text {
+  padding: 5px 10px;
+}
+.ann-text h6,
+.trend-text h6 {
+  font-size: 14px;
+}
+
+.divider {
+  border: 0.5px solid #6b7280;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+/* Trend Section */
+
+.trend-img-text {
+  display: flex;
+  align-items: center;
+}
+.trend-card p {
+  color: #6b7280;
+}
+
+.trend-icon {
+  border-radius: 30px;
+  border: solid black;
+  margin: 15px 20px;
 }
