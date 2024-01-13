@@ -76,9 +76,23 @@
 
 .navbar {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   margin-top: 1rem;
   margin-left: 4rem;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 21rem;
+  margin-right: 2.2rem;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .form-input {
